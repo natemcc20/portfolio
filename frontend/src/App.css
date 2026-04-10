@@ -245,3 +245,39 @@ section {
   font-size: 13px;
   color: #5a8a8a;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.2rem 1.5rem;
+  }
+
+  .hero {
+    padding: 4rem 1.5rem 3rem;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  section {
+    padding: 3rem 1.5rem;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-btns {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+}
