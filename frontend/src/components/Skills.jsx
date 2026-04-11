@@ -1,5 +1,5 @@
 function Skills() {
-  const skills = ['Python', 'Java', 'Flask', 'React', 'JavaScript', 'HTML / CSS', 'Git', 'REST APIs', 'SQL']
+  const skills = ['Python', 'Java', 'Flask', 'React', 'JavaScript', 'HTML / CSS', 'Git', 'REST APIs', 'SQL', 'AI/ML INTEGRATION']
 
   return (
     <section id="skills">
@@ -9,7 +9,7 @@ function Skills() {
         {skills.map(skill => (
           <span key={skill} className="skill-pill">{skill}</span>
         ))}
-        
+
       </div>
     </section>
   )
