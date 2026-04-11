@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -7,16 +8,18 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 
 function App() {
+  useEffect(() => {
+    fetch('RENDER URL...TBD')
+  }, [])
+
   return (
     <div className="site">
-
       <Navbar />
       <Hero />
       <About />
       <Projects />
       <Skills />
       <Contact />
-      
     </div>
   )
 }

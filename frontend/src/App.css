@@ -48,6 +48,8 @@ body {
 .hero {
   padding: 6rem 2.5rem 5rem;
   max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .tag {
@@ -71,12 +73,13 @@ body {
   color: #888;
   line-height: 1.7;
   max-width: 520px;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
 }
 
 .hero-btns {
   display: flex;
   gap: 12px;
+  justify-content: center;
 }
 
 .btn-primary {
@@ -250,6 +253,8 @@ section {
   position: relative;
 }
 
+/* Glitch effect brought to you by Claude AI  */
+
 .glitch::before,
 .glitch::after {
   content: attr(data-text);
@@ -267,7 +272,7 @@ section {
 }
 
 .glitch::after {
-  color: #f0f;
+  color: rgb(255, 1, 1);
   animation: glitch-2 3s infinite;
   clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
 }

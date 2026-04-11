@@ -14,6 +14,10 @@ EMAIL = os.getenv('EMAIL')
 PASSWORD = os.getenv('PASSWORD')
 TO = os.getenv('TO')
 
+@app.route('/api/ping')
+def ping():
+    return {'status': 'ok'}
+
 @app.route('/api/contact', methods=['POST'])
 def contact():
     data = request.get_json()
@@ -36,6 +40,7 @@ def contact():
     except Exception as e:
         print(e)
         return jsonify({'success': False})
+    
 
 if __name__ == '__main__':
     app.run(debug=True)
