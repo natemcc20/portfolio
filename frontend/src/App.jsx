@@ -9,7 +9,7 @@ import Contact from './components/Contact'
 
 function App() {
   useEffect(() => {
-    fetch('RENDER URL...TBD')
+    fetch('https://portfolio-m9jm.onrender.com')
   }, [])
 
   return (

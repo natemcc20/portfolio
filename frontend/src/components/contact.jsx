@@ -12,7 +12,7 @@ function Contact() {
     e.preventDefault()
     setStatus('Sending...')
     try {
-      const res = await fetch('http://127.0.0.1:5000/api/contact', {
+      const res = await fetch('https://portfolio-m9jm.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form)
@@ -48,7 +48,7 @@ function Contact() {
       </form>
 
       {status && <p className="contact-status">{status}</p>}
-      
+
     </section>
   )
 }
