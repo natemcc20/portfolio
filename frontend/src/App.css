@@ -267,13 +267,13 @@ section {
 
 .glitch::before {
   color: #0ff;
-  animation: glitch-1 3s infinite;
+  animation: glitch-1 1.5s infinite;
   clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
 }
 
 .glitch::after {
   color: rgb(255, 1, 1);
-  animation: glitch-2 3s infinite;
+  animation: glitch-2 1.5s infinite;
   clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
 }
 
