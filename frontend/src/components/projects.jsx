@@ -6,7 +6,7 @@ function Projects() {
         <div className="project-card">
           <div className="proj-tag">Flask · OpenAI · Python</div>
           <h3>Destiny AI Assistant</h3>
-          <p>Voice-enabled AI assistant using the Bungie API, OpenAI, and Flask. Deployed to Render.</p>
+          <p>Voice-enabled AI assistant using the Bungie API, OpenAI, speech to text, with a Flask backend. Deployed to Render.</p>
         </div>
         <div className="project-card">
           <div className="proj-tag">Flask · React</div>
