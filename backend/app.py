@@ -11,9 +11,15 @@ app = Flask(__name__)
 
 CORS(app)
 
+
+
 EMAIL = os.getenv('EMAIL')
 PASSWORD = os.getenv('PASSWORD')
 TO = os.getenv('TO')
+
+
+#AI generated api/ping. Using free tier on Render, to spin up my backend.
+#Render does NOT support SMTP so the contact forum will not work. Looking at hosting my own server.
 
 @app.route('/api/ping')
 def ping():
@@ -32,7 +38,7 @@ def contact():
         msg['From'] = EMAIL
         msg['To'] = TO
 
-        with smtplib.SMTP('smtp.mail.me.com', 587) as server:
+        with smtplib.SMTP('smtp.mail.me.com', 587) as server: #backend host is not supporting SMTP
             server.starttls()
             server.login(EMAIL, PASSWORD)
             server.sendmail(EMAIL, TO, msg.as_string())
