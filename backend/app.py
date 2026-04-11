@@ -9,7 +9,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-CORS(app, origins=["https://chimerical-sable-3efb3b.netlify.app"])
+CORS(app)
 
 EMAIL = os.getenv('EMAIL')
 PASSWORD = os.getenv('PASSWORD')

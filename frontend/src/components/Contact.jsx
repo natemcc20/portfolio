@@ -12,7 +12,7 @@ function Contact() {
     e.preventDefault()
     setStatus('Sending...')
     try {
-      const res = await fetch('https://portfolio-m9jm.onrender.com', {
+      const res = await fetch('https://portfolio-m9jm.onrender.com/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form)
