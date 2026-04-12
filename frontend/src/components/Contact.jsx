@@ -37,7 +37,7 @@ function Contact() {
 
       <div className="section-label">Contact</div>
       <div className="contact-links">
-        <p className="contact-line">Email: <a href="mailto:natemcc30@gmail.com">nate.mccollough@icloud.com</a></p>
+        <p className="contact-line">Email: <a href="mailto:natemcc30@gmail.com">natemcc30@gmail.com</a></p>
         <p className="contact-line">GitHub: <a href="https://github.com/natemcc20" target="_blank">View My Code Here</a></p>
         <p className="contact-line">LinkedIn: <a href="https://www.linkedin.com/in/nathan-mccollough-3ab850276" target="_blank">linkedin.com/in/nathan-mccollough</a></p>
       </div>
