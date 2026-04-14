@@ -17,6 +17,12 @@ function Projects() {
           <p>This site. A full stack app with a Flask backend handling real form submissions and a React frontend. Dark, minimal, and fast.</p>
         </div>
 
+        <div className="project-card">
+          <div className="proj-tag">Flask · Python · REST API</div>
+          <h3>API Rate Limiter</h3>
+          <p>Implements sliding window and token bucket algorithms to control request traffic per IP. Includes a test script to demonstrate the behavioral difference between both approaches.</p>
+        </div>
+
       </div>
     </section>
   )
