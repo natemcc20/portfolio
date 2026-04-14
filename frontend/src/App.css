@@ -206,11 +206,13 @@ section {
   font-size: 15px;
   color: #777;
   margin-bottom: 0.75rem;
+  
 }
 
 .contact-line a {
   color: #5a8a8a;
-  text-decoration: none;
+  text-decoration: underline;
+
 }
 
 .contact-form {

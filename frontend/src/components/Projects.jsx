@@ -26,7 +26,7 @@ function Projects() {
         <div className="project-card">
           <div className="proj-tag">In Progress</div>
           <h3>Discord Bot</h3>
-          <p>A Discord bot. More to be revealed upon completion</p>
+          <p>A Discord bot. More to be revealed upon completion.</p>
         </div>
 
       </div>
