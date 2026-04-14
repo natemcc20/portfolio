@@ -23,6 +23,12 @@ function Projects() {
           <p>Implements sliding window and token bucket algorithms to control request traffic per IP. Includes a test script to demonstrate the behavioral difference between both approaches.</p>
         </div>
 
+        <div className="project-card">
+          <div className="proj-tag">In Progress</div>
+          <h3>Discord Bot</h3>
+          <p>A Discord bot. More to be revealed upon completion</p>
+        </div>
+
       </div>
     </section>
   )
