@@ -13,7 +13,7 @@ function Contact() {
   
   const handleSubmit = async (e) => {
     e.preventDefault()
-    setStatus('Sending...')
+    setStatus('Spinning up backend server... please wait!')
     try {
       const res = await fetch('https://portfolio-m9jm.onrender.com/api/contact', {
         method: 'POST',
